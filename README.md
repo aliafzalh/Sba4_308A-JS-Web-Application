@@ -6,5 +6,5 @@ This is a simple single-page web application that allows users to search and vie
 - Auto-refresh with a new random image every 10 seconds
 - Uses Fetch API and asyn/await
 
-## Autor
+## Author
 - Ali Hussain
