@@ -6,7 +6,7 @@ export async function getRandomDog() {
 }
 
 export async function getDogByBreed(breed) {
-    const res = await fetch (`https://dog.ceo/api/breed/${breed}images/random`)
+    const res = await fetch (`https://dog.ceo/api/breed/${breed}/images/random`)
     const data = await res.json();
     if(data.status !=="success") throw new Error("Breed not found")
         return data.message
