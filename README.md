@@ -1,0 +1,1 @@
+This is a simple single-page web application that allows users to search and view cat breeds using TheDogApi.
